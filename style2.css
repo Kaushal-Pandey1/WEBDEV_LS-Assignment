@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* overflow-: hidden; */
+    /* background-color: chartreuse; */
+
+}
+
+body{
+    position: absolute;
+}
+
+
+.Navbar ul li{
+    list-style: none;
+    padding: 10px; 
+    font-size:26px;
+    cursor: pointer;
+    
+   
+}
+
+.Navbar ul{
+    display:flex;
+    justify-content: space-evenly;
+    }
+
+
+.Navbar{
+    background-color: rgb(243, 12, 12);
+    width: 100vw;
+    
+} 
+.Navbar a{
+    text-decoration: none;
+        }
+
+
+
+.heading{
+    background-color: #2dff2aba;  
+    opacity: 0.9;
+}
+
+.intro{
+    background-image: url('MArio.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   height: auto;
+  }
+
+
+
+
+
+.heading{
+    font-style: italic;
+    font-size: 48px;
+   text-decoration: underline;
+
+}
+
+.intro{
+    font-size: 28px;
+    line-height: 1.5;
+    font-weight: 1000;
+    color: rgb(0, 21, 255);
+}
+
+
+.Overview{
+    background-color: rgba(255, 255, 255, 0.839);
+    opacity: 0.7;
+    
+}
+
+.footer{
+    background-color: rgb(97, 96, 96)  ;
+    color: White;
+    font-size: 20px;
+    font-weight: bold;
+    display:flex;
+    padding: 10px;
+    align-items: center;
+    
+    width:100%
+
+}
+

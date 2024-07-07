@@ -1,0 +1,90 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    /* overflow-: hidden; */
+    /* background-color: chartreuse; */
+}
+
+
+.Navbar ul li{
+    list-style: none;
+    padding: 10px; 
+    font-size:26px;
+    cursor: pointer;
+    
+    }
+
+
+    .Navbar a{
+text-decoration: none;
+    }
+    
+.Navbar ul{
+    display:flex;
+    justify-content: space-evenly;
+    }
+
+
+.Navbar{
+    background-color: rgb(243, 12, 12);
+    width: 100vw;
+    
+} 
+
+.heading{
+    font-size: 43px;
+    color: rgb(128, 9, 255);
+    font-weight: bold;
+    text-align: center;
+    text-decoration: underline;
+    
+}
+
+.Steps{
+    font-size: 34px;
+    padding: 10px;
+    margin-left: 33px;
+    display: flex;
+    line-height: 82px;
+}
+    
+
+
+
+.Content{
+    background-color: rgb(119, 209, 212);
+}
+
+.Steps img{
+    width:12vw;
+    height: auto;
+   border: 3px solid black;
+   border-radius: 10px;
+     /* float: inline-end;  */
+    float: right;
+    margin-left:30px;
+    }
+
+    .Steps ul li{
+        width: auto ;
+    }
+
+
+
+.Steps b{
+    color:rgb(30, 0, 254)
+}
+
+.footer{
+    background-color: rgb(97, 96, 96)  ;
+    color: White;
+    font-size: 20px;
+    font-weight: bold;
+    display:flex;
+    padding: 10px;
+    align-items: center;
+    
+    width:100%
+
+}
+

@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.Navbar ul li{
+    list-style: none;
+    padding: 10px; 
+    font-size:26px;
+    cursor: pointer;
+    
+   
+}
+
+.Navbar ul{
+    display:flex;
+    justify-content: space-evenly;
+    }
+
+
+.Navbar{
+    background-color: rgb(243, 12, 12);
+    width: 100vw;
+    
+} 
+
+.Navbar a{
+    text-decoration: none;
+        }
+
+
+
+.Quiz{
+    height:90vh;
+    /* display:flex; */
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(177, 246, 182);
+    
+}
+
+
+ .QuestionCard{
+  
+    /* flex-direction: column; */
+    height: 100%;
+    
+    border:5px solid #0060ad;
+    background-color: #0060ad;
+    display: none;
+    
+ }     
+
+ .Question{
+    border: 2px solid black;
+    width: 99.5%;
+    height:100%;
+     display :flex;
+     margin:2px;
+     
+ }
+
+
+.red{
+    background-color: rgb(207, 12, 21);
+}
+
+.red2{
+    background-color: rgb(207, 12, 21);
+}
+
+.green{
+    background-color: rgba(11, 143, 103, 0.778);
+}
+
+.pink{
+    background-color: rgb(233, 31, 98);
+}
+
+
+.Wow{
+    background-color: rgb(160, 76, 7);
+}
+
+
+.blue{
+    background-color: rgb(6, 95, 130);;
+}
+
+.Options li{
+    list-style: none;
+    font-size: 48px;
+    color:rgb(0, 255, 17)
+}
+
+.Options ul{
+    padding:50px;
+    line-height: 80px;
+}
+
+.text{
+    padding:30px;
+    font-size: 69px;
+    font-weight: bold;
+    color:rgb(209, 255, 3);
+    width:50%;
+}
+
+.QuestionCard.active{
+    display:flex;
+}
+
+
+.GameOVER{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:90vh;
+    background-image: url('Over.jpeg');
+    opacity: 0.96;
+}
+
+
+.footer{
+    background-color: black ;
+    color: White;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer{
+    background-color: rgb(97, 96, 96) ;
+    color: White;
+    font-size: 20px;
+    font-weight: bold;
+    display:flex;
+    padding: 10px;
+    align-items: center;
+    
+    width:100%
+
+}
+
